@@ -1,0 +1,7 @@
+@font-face {
+  font-family: Founders;
+  src: url(/AGENCYB.TTF);
+}
+.text{
+ font-family: Founders;
+}
