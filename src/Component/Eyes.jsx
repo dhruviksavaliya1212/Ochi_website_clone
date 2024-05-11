@@ -17,7 +17,7 @@ export default function Eyes() {
   })
   return (
     <div className="eyes w-full md:h-[50vw] h-[70vw] overflow-hidden">
-      <div data-scroll data-scroll-speed="-.4" className='relative w-full h-full bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")]'>
+      <div className='relative w-full h-full bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")]'>
         <div className="absolute top-[50%] flex gap-10  left-1/2 -translate-x-[50%] -translate-y-[50%] ">
           <div className="w-[20vw] h-[20vw]  md:w-[15vw] md:h-[15vw] flex items-center justify-center rounded-full bg-zinc-100">
             <div className="w-[13vw] h-[13vw] md:h-[9vw] md:w-[9vw] relative rounded-full bg-zinc-900">

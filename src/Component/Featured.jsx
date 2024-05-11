@@ -9,7 +9,7 @@ export const Featured = () => {
   const [isHover3, setHover3] = useState(false);
 
   return (
-    <div className="w-full h-full md:py-10 overflow-hidden py-14 rounded-t-2xl bg-zinc-800">
+    <div className="w-full h-fit md:py-10 overflow-hidden py-14 rounded-t-2xl bg-zinc-800">
       <div className="w-full md:px-14 px-5 border-b-[1px] pb-10 border-zinc-600">
         <h1 className="md:text-4xl lg:text-5xl text-3xl tracking-tight">
           Featured projects
@@ -19,10 +19,10 @@ export const Featured = () => {
         <div
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
-          className="card md:w-1/2 w-full h-full md:h-[88vh] "
+          className="card md:w-1/2 w-full h-full md:h-fit "
         >
           <h1 className="pl-2">-- FYDE</h1>
-          <div className="innercardconta iner relative w-full h-[80vw]  md:h-[80vh] mt-5">
+          <div className="innercardconta iner relative w-full h-[80vw]  md:h-[38vw] mt-5">
             <h1 className="absolute flex overflow-hidden text-[#a8c052] md:left-full left-[50%] -translate-x-[50%] top-1/2 -translate-y-1/2 z-[9] text-8xl font-bold leading-none tracking-tighter">
               {"FYDE".split("").map((item, index) => (
                 <motion.span
@@ -58,12 +58,12 @@ export const Featured = () => {
             )}
           </div>
         </div>
-        <div className="card md:w-1/2 w-full h-full md:h-[88vh] ">
+        <div className="card md:w-1/2 w-full h-full md:h-fit ">
           <h1 className="pl-2">-- VISE</h1>
           <div
             onMouseEnter={() => setHover1(true)}
             onMouseLeave={() => setHover1(false)}
-            className="innercardcontainer relative  w-full h-[80vw]  md:h-[80vh] mt-5"
+            className="innercardcontainer relative  w-full h-[80vw]  md:h-[38vw] mt-5"
           >
             <h1 className="absolute flex overflow-hidden text-[#a8c052] md:right-full right-[50%] translate-x-[50%] top-1/2 -translate-y-1/2 z-[9] text-8xl font-bold leading-none tracking-tighter">
               {"VISE".split("").map((item, index) => (
@@ -99,14 +99,14 @@ export const Featured = () => {
           </div>
         </div>
       </div>
-      <div className="cards flex flex-col md:flex-row md:gap-10 gap-3 lg:px-14 px-5 md:mt-20">
+      <div className="cards flex flex-col md:flex-row md:gap-10 gap-3 lg:px-14 px-5 md:mt-5">
         <div
           onMouseEnter={() => setHover2(true)}
           onMouseLeave={() => setHover2(false)}
-          className="card md:w-1/2 w-full h-full md:h-[88vh] "
+          className="card md:w-1/2 w-full h-full md:h-fit"
         >
           <h1 className="pl-2">-- TRAWA</h1>
-          <div className="innercardconta iner relative w-full h-[80vw]  md:h-[80vh] mt-5">
+          <div className="innercardconta iner relative w-full h-[80vw]  md:h-[38vw] mt-5">
             <h1 className="absolute flex overflow-hidden text-[#a8c052] md:left-full left-[50%] -translate-x-[50%] top-1/2 -translate-y-1/2 z-[9] text-8xl font-bold leading-none tracking-tighter">
               {"TRAWA".split("").map((item, index) => (
                 <motion.span
@@ -142,12 +142,12 @@ export const Featured = () => {
             )}
           </div>
         </div>
-        <div className="card md:w-1/2 w-full h-full md:h-[88vh] ">
+        <div className="card md:w-1/2 w-full h-full md:h-fit ">
           <h1 className="pl-2">-- PREMIUM BLEND</h1>
           <div
             onMouseEnter={() => setHover3(true)}
             onMouseLeave={() => setHover3(false)}
-            className="innercardcontainer relative  w-full h-[80vw]  md:h-[80vh] mt-5"
+            className="innercardcontainer relative  w-full h-[80vw]  md:h-[38vw] mt-5"
           >
             <h1 className="absolute flex overflow-hidden text-[#a8c052] md:right-full right-[50%] translate-x-[50%] top-1/2 -translate-y-1/2 z-[9] md:text-8xl text-[12vw]  font-bold leading-none tracking-tighter">
               {"PREMIUM BLEND".split("").map((item, index) => (
@@ -183,7 +183,7 @@ export const Featured = () => {
           </div>
         </div>
       </div>
-      <div className=" h-10 w-full flex justify-center text-center md:mt-32 mt-5">
+      <div className=" h-10 w-full flex justify-center text-center mt-5">
         <button
           type="button "
           className="border px-6 flex gap-3 items-center  py-6 text-[15px] font-bold bg-zinc-300 text-zinc-900 rounded-full"

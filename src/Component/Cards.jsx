@@ -2,7 +2,7 @@ import React from "react";
 
 export const Cards = () => {
   return (
-    <div data-scroll data-scroll-speed=".2" className="w-full rounded-t-2xl overflow-hidden h-full md:h-[40rem] bg-zinc-950 flex flex-wrap md:flex-nowrap items-center py-10 lg:px-16 px-5 gap-4 -mt-20">
+    <div className="w-full rounded-t-2xl overflow-hidden h-full md:h-[40rem] bg-zinc-950 flex flex-wrap md:flex-nowrap items-center py-10 lg:px-16 px-5 gap-4">
       <div className="cardcontainer h-[20rem] md:w-1/2 w-full">
         <div className="relative card w-full rounded-xl h-full text-[#CDEA68]  bg-[#004D43] flex items-center justify-center">
           <img
@@ -24,7 +24,7 @@ export const Cards = () => {
             alt=""
             srcset=""
           />
-          <button className="absolute px-3 py-1 rounded-full text-[15px] lg:left-4 md:left-0 left-[3vw] lg:bottom-8 bottom-5 border ">
+          <button className="absolute px-3 py-1 rounded-full text-[15px] lg:left-4 md:left-2 left-[3vw] lg:bottom-8 bottom-5 border ">
             RATING 5.0 ON CLUTCH
           </button>
         </div>
