@@ -4,15 +4,15 @@ export const About = () => {
   return (
     <div className="w-full overflow-hidden lg:pt-20 pt-14 pb-16  bg-[#CDEA68] rounded-t-2xl text-zinc-900">
       <div className=" lg:pr-48 lg:pl-14 px-7  ">
-        <h1 className="font-[Neue Montreal] lg:text-5xl text-3xl md:text-4xl tracking-tight leading-none font-normal ">
+        <h1 data-aos="fade-up" data-aos-delay="100" className="font-[Neue Montreal] lg:text-5xl text-3xl md:text-4xl tracking-tight leading-none font-normal ">
           Ochi is a strategic partner for fast-growing tech businesses that need
           to raise funds, sell proucts, explain complex ideas, and hire
           great people.
         </h1>
       </div>
       <div className=" relative h-[30rem] md:h-[15rem] border-t-[1px]  border-zinc-700 mt-20 flex md:justify-between  items-center px-5 lg:px-14">
-        <h4 className="absolute text-[15px] font-[500] -mt-[25rem] md:-mt-44">What you can expect:</h4>
-        <div className="absolute h-auto tracking-tight w-[20rem] lg:w-[20rem] md:w-[15rem] lg:flex flex-col md:h-28 md:-mt-20 -mt-32  md:ml-[32vw] lg:ml-[44vw]"> 
+        <h4 data-aos="fade-right" data-aos-delay="100" className="absolute text-[15px] font-[500] -mt-[25rem] md:-mt-44">What you can expect:</h4>
+        <div data-aos="fade-up" data-aos-delay="100" className="absolute h-auto tracking-tight w-[20rem] lg:w-[20rem] md:w-[15rem] lg:flex flex-col md:h-28 md:-mt-20 -mt-32  md:ml-[32vw] lg:ml-[44vw]"> 
           <p className="mb-8">
             We create tailored presentations to help you persuade your
             colleagues, clients, or investors. Whether it's live or digital,
@@ -23,7 +23,7 @@ export const About = () => {
             what makes your message clear, convincing, and captivating.
           </p>
         </div>
-        <div className="absolutte md:mt-32 mt-80 mr-32 md:ml-[85vw] ">
+        <div data-aos="fade-left" data-aos-delay="100" className="absolutte md:mt-32 mt-80 mr-32 md:ml-[85vw] ">
           <h3 className="pb-5">S.</h3>
           <h3>Instagram</h3>
           <h3>Behence</h3>
@@ -32,14 +32,14 @@ export const About = () => {
         </div>
       </div>
       <div className="w-full h-[100vw] md:h-[35vw] flex-col md:flex-row flex gap-5 border-t-[1px] mt-20 border-zinc-700">
-        <div className="md:w-1/2 w-full md:px-0 md:pl-5 lg:px-14 px-5 py-6 ">
-          <h1 className="md:text-4xl lg:text-5xl text-3xl font-medium">Our approach : </h1>
+        <div data-aos="fade-right" data-aos-delay="100" className="md:w-1/2 w-full md:px-0 md:pl-5 lg:px-14 px-5 py-6 ">
+          <h1  className="md:text-4xl lg:text-5xl text-3xl font-medium">Our approach : </h1>
           <button className=" text-[14px] flex items-center gap-5 mt-6 px-6 py-3 uppercase bg-zinc-900 rounded-full text-white">Read More 
             <div className="h-2 w-2 rounded-full bg-zinc-200"></div>
           </button>
         </div>
-        <div className="relative w-full md:w-[55rem] md:h-[40vw] h-[70vw] flex items-center justify-center md:mx-14 -mt-5 md:mt-2">
-          <img className=" w-[90vw] rounded-xl" src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg" alt="" />
+        <div  className="relative w-full md:w-[55rem] md:h-[40vw] h-[70vw] flex items-center justify-center md:mx-14 -mt-5 md:mt-2">
+          <img data-aos="flip-up" data-aos-delay="100" className=" w-[90vw] rounded-xl" src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg" alt="" />
         </div>
       </div>
     </div>

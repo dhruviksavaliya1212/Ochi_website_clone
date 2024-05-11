@@ -5,11 +5,11 @@ export const Footer = () => {
   return (
     <div className=" overflow-hidden w-full flex-col md:flex-row rounded-t-2xl flex gap-2 h-fit bg-zinc-900 lg:px-14 px-5 sm:px-10 py-16">
       <div className="lg:w-1/2 md:w-[40%] lg:text-[6rem] md:text-[5rem] text-[4rem] h-full flex flex-col justify-between font-[Founders] text">
-        <div className="heading">
+        <div data-aos="fade-right" data-aos-delay="100" className="heading">
           <h1 className="leading-none ">EYE-</h1>
           <h1 className="leading-none">OPENING</h1>
         </div>
-        <div className="h-fit w-fit absolute md:mt-[40rem] lg:mt-[42rem] mt-[46rem]">
+        <div data-aos="fade-up" data-aos-delay="100" className="h-fit w-fit absolute md:mt-[40rem] lg:mt-[42rem] mt-[46rem]">
           <svg
             width="72"
             height="30"
@@ -41,10 +41,10 @@ export const Footer = () => {
         </div>
       </div>
       <div className="lg:w-1/2 md:w-[60%] w-full ">
-        <h1 className="text-[4rem] lg:text-[6rem] md:text-[5rem] font-[Founders] leading-none ">
+        <h1 data-aos="fade-left" data-aos-delay="100" className="text-[4rem] lg:text-[6rem] md:text-[5rem] font-[Founders] leading-none ">
           PRESENTATIONS
         </h1>
-        <div className=" mt-16  flex flex-col w-[70px] ">
+        <div data-aos="fade-down" data-aos-delay="100" className=" mt-16  flex flex-col w-[70px] ">
           <h3 className="pb-4 ">S:</h3>
           {["Instagram", "Behance", "Facebook", "Linkdin"].map(
             (item, index) => (
@@ -55,7 +55,7 @@ export const Footer = () => {
           )}
         </div>
         <div className="w-full flex justify-between">
-          <div className=" mt-10   w-[30vh] flex flex-col gap-3 ">
+          <div data-aos="fade-up" data-aos-delay="100" className=" mt-10   w-[30vh] flex flex-col gap-3 ">
             <h3 className="pb-3 ">L:</h3>
             {[
               "202-1965 W 4th Ave Vancouver, Canada ",
@@ -66,7 +66,7 @@ export const Footer = () => {
               </a>
             ))}
           </div>
-          <div className=" mt-10 mb:-mr-14 ml-10  w-[10rem] flex flex-col ">
+          <div data-aos="flip-right" data-aos-delay="100" className=" mt-10 mb:-mr-14 ml-10  w-[10rem] flex flex-col ">
             <h3 className="pb-3 ">M:</h3>
             {[
               "Home",
@@ -82,7 +82,7 @@ export const Footer = () => {
             ))}
           </div>
         </div>
-        <div className=" mt-10  mr-32 w-[30vh] ">
+        <div data-aos="fade-down" data-aos-delay="100" className=" mt-10  mr-32 w-[30vh] ">
           <h3 className="pb-4">E:</h3>
           <a className="hover:scale-[1.2] duration-300" href="#" >hello@ochi.design</a>
         </div>

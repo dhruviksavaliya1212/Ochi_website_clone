@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 
 export const LandingPage = () => {
   return (
-    <div className="w-full h-[600px] md:h-[650px] lg:h-fit bg-zinc-900 pt-1">
+    <div className="w-full h-[600px] overflow-hidden md:h-[650px] lg:h-fit bg-zinc-900 pt-1">
       <div  className="textstructure mt-24 md:mt-40 px-4 sm:px-10 md:px-20">
         {["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
           return (
-            <div className="masker">
+            <div data-aos="fade-right"  data-aos-delay="100"  className="masker">
               <div className="w-fit flex items-center gap-2">
                 {index === 1 && (<motion.div initial={{width:0}} animate={{width: "80px"}} transition={{ ease:[0.76,0,0.24,1], duration:1}} className="md:hidden w-[65px] h-[45px] md:w-[75px] md:h-[50px] lg:w-[85px] lg:h-[60px] xl:w-[97px] xl:h-[70px] flex items-center justify-center bg-red-600 rounded-lg"><img
             className="w-[60px] md:w-[60px] lg:w-[70px] xl:w-[80px]"
@@ -40,10 +40,10 @@ export const LandingPage = () => {
           "From the first pitch to IPO",
         ].map((item, index) => {
           return (
-            <p key={index} className="text-[16px] font-light leading-none">{item}</p>
+            <p data-aos="fade-up" data-aos-delay="100" data-aos-offset="50" key={index} className="text-[16px] font-light leading-none">{item}</p>
           );
         })}
-        <div className="start flex gap-3 items-center">
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-offset="50" className="start flex gap-3 items-center">
           <div className="px-4 py-[4px] hover:text-zinc-800 hover:bg-zinc-200 duration-300 cursor-pointer border-2 rounded-full uppercase border-zinc-600 text-[15px]">
             Start the project
           </div>

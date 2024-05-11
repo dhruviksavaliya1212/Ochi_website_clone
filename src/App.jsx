@@ -8,9 +8,21 @@ import "./App.css";
 import { Featured } from "./Component/Featured";
 import { Cards } from "./Component/Cards";
 import { Footer } from "./Component/Footer";
+import Project from "./Component/Project";
 import LocomotiveScroll from "locomotive-scroll";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
+  React.useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: "ease-in-out",
+      delay: 100,
+      offset: 100,
+    });
+    AOS.refresh();
+  });
   
   const locomotiveScroll = new LocomotiveScroll();
 
@@ -23,6 +35,7 @@ const App = () => {
       <Eyes />
       <Featured />
       <Cards />
+      <Project />
       <Footer />
     </div>
   );
