@@ -11,8 +11,16 @@ import { Footer } from "./Component/Footer";
 import LocomotiveScroll from "locomotive-scroll";
 
 const App = () => {
-  
-  const locomotiveScroll = new LocomotiveScroll();
+  const locomotiveScroll = new LocomotiveScroll({
+    el: document.querySelector(".smooth-scroll"),
+    smooth: true,
+    mobile: {
+      smooth: true,
+    },
+    tablet: {
+      smooth: true,
+    },
+  });
 
   return (
     <div className="w-full min-h-screen text-white bg-zinc-900">
